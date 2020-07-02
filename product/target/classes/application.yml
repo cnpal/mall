@@ -4,10 +4,12 @@ spring:
     password: root
     url: jdbc:mysql://localhost:3306/mail_pms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
-#  cloud:
-#    nacos:
-#      discovery:
-#        server-addr: 127.0.0.1:8848
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  application:
+    name: product
 #  jackson:
 #    date-format: yyyy-MM-dd HH:mm:ss
 #
@@ -19,8 +21,8 @@ mybatis-plus:
       id-type: auto
 #      logic-delete-value: 1
 #      logic-not-delete-value: 0
-#server:
-#  port: 10000
+server:
+  port: 10000
 #logging:
 #  level:
 #    com.atguigu.gulimall: debug
