@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a36be56-773d-46f6-bd41-b0704632b4a0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/coupon/src/main/java/com/pal/mail/coupon/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/java/com/pal/mail/coupon/controller/CouponController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/coupon/target/classes/com/pal/mail/coupon/CouponApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/target/classes/com/pal/mail/coupon/CouponApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/feign/CouponFeignService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/MemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/target/classes/com/pal/mail/member/MemberApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/member/target/classes/com/pal/mail/member/MemberApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/java/com/pal/mail/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/java/com/pal/mail/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order/target/classes/com/pal/mail/order/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order/target/classes/com/pal/mail/order/OrderApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/ProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/ProductApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/src/main/java/com/pal/mail/ware/WareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware/src/main/java/com/pal/mail/ware/WareApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware/target/classes/com/pal/mail/ware/WareApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ware/target/classes/com/pal/mail/ware/WareApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/controller/MemberController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +32,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,7 +118,7 @@
       <module name="member" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.pal.mail.member.*" />
+          <option name="PATTERN" value="com.pal.mail.member.feign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -206,8 +191,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CouponApplication" />
         <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.CouponApplication" />
         <item itemvalue="Spring Boot.WareApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
         <item itemvalue="Spring Boot.RenrenApplication (1)" />
@@ -270,7 +255,7 @@
       <workItem from="1593605108585" duration="177000" />
       <workItem from="1593605288049" duration="31000" />
       <workItem from="1593605330321" duration="7405000" />
-      <workItem from="1593665829220" duration="3943000" />
+      <workItem from="1593665829220" duration="4956000" />
     </task>
     <servers />
   </component>
@@ -298,38 +283,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1593605135000" />
-    <state width="1293" height="216" key="GridCell.Tab.0.bottom" timestamp="1593669449712">
+    <state width="619" height="121" key="GridCell.Tab.0.bottom" timestamp="1593670878990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449712" />
-    <state width="1293" height="216" key="GridCell.Tab.0.center" timestamp="1593669449712">
+    <state width="619" height="121" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
+    <state width="619" height="121" key="GridCell.Tab.0.center" timestamp="1593670878989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449712" />
-    <state width="1293" height="216" key="GridCell.Tab.0.left" timestamp="1593669449712">
+    <state width="619" height="121" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878989" />
+    <state width="619" height="121" key="GridCell.Tab.0.left" timestamp="1593670878988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449712" />
-    <state width="1293" height="216" key="GridCell.Tab.0.right" timestamp="1593669449712">
+    <state width="619" height="121" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878988" />
+    <state width="619" height="121" key="GridCell.Tab.0.right" timestamp="1593670878990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449712" />
-    <state width="1293" height="216" key="GridCell.Tab.1.bottom" timestamp="1593669449713">
+    <state width="619" height="121" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
+    <state width="619" height="121" key="GridCell.Tab.1.bottom" timestamp="1593670878990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449713" />
-    <state width="1293" height="216" key="GridCell.Tab.1.center" timestamp="1593669449712">
+    <state width="619" height="121" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
+    <state width="619" height="121" key="GridCell.Tab.1.center" timestamp="1593670878990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449712" />
-    <state width="1293" height="216" key="GridCell.Tab.1.left" timestamp="1593669449712">
+    <state width="619" height="121" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
+    <state width="619" height="121" key="GridCell.Tab.1.left" timestamp="1593670878990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449712" />
-    <state width="1293" height="216" key="GridCell.Tab.1.right" timestamp="1593669449713">
+    <state width="619" height="121" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
+    <state width="619" height="121" key="GridCell.Tab.1.right" timestamp="1593670878990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1293" height="216" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593669449713" />
+    <state width="619" height="121" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
     <state width="619" height="216" key="GridCell.Tab.2.bottom" timestamp="1593612120217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
