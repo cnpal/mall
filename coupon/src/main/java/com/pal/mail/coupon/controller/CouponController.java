@@ -5,6 +5,7 @@ import com.pal.common.utils.R;
 import com.pal.mail.coupon.entity.CouponEntity;
 import com.pal.mail.coupon.service.CouponService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
@@ -19,6 +20,7 @@ import java.util.Map;
  * @email cnbupt@gmail.com
  * @date 2020-06-26 11:35:32
  */
+@RefreshScope
 @RestController
 @RequestMapping("coupon/coupon")
 public class CouponController {

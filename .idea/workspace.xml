@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a36be56-773d-46f6-bd41-b0704632b4a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/feign/CouponFeignService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/MemberApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/MemberApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/member/src/main/java/com/pal/mail/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/pal/mail/gateway/GatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/src/main/java/com/pal/mail/coupon/CouponApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/java/com/pal/mail/coupon/CouponApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/src/main/java/com/pal/mail/coupon/controller/CouponController.java" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/java/com/pal/mail/coupon/controller/CouponController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/target/classes/com/pal/mail/coupon/CouponApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/target/classes/com/pal/mail/coupon/CouponApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/target/classes/com/pal/mail/coupon/controller/CouponController.class" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/target/classes/com/pal/mail/coupon/controller/CouponController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +42,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -59,13 +70,16 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1dhowzs249PXZbyJRd3SZje0SHN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -74,7 +88,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ware/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -86,11 +100,11 @@
       <recent name="com.pal.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\gateway\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\coupon\src\main\resources" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\ware\src\main\resources" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\order\src\main\resources" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\member\src\main\resources" />
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\product\src\main\java\com\pal\mail\product" />
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\coupon\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -100,7 +114,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductApplication">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="coupon" />
       <extension name="coverage">
@@ -110,6 +124,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.coupon.CouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pal.mail.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.gateway.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,19 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RenrenApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="renren-generator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.renren.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="renren-fast" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
@@ -184,18 +198,18 @@
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.RenrenApplication" />
       <item itemvalue="Spring Boot.CouponApplication" />
-      <item itemvalue="Spring Boot.RenrenApplication (1)" />
       <item itemvalue="Spring Boot.MemberApplication" />
       <item itemvalue="Spring Boot.OrderApplication" />
       <item itemvalue="Spring Boot.WareApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.CouponApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
         <item itemvalue="Spring Boot.WareApplication" />
         <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.RenrenApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -255,12 +269,16 @@
       <workItem from="1593605108585" duration="177000" />
       <workItem from="1593605288049" duration="31000" />
       <workItem from="1593605330321" duration="7405000" />
-      <workItem from="1593665829220" duration="4956000" />
+      <workItem from="1593665829220" duration="9242000" />
+      <workItem from="1593675138205" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1032" y="181" key="#Project_Structure" timestamp="1592895332558">
@@ -283,38 +301,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1593605135000" />
-    <state width="619" height="121" key="GridCell.Tab.0.bottom" timestamp="1593670878990">
+    <state width="619" height="189" key="GridCell.Tab.0.bottom" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
-    <state width="619" height="121" key="GridCell.Tab.0.center" timestamp="1593670878989">
+    <state width="619" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.0.center" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878989" />
-    <state width="619" height="121" key="GridCell.Tab.0.left" timestamp="1593670878988">
+    <state width="619" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.0.left" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878988" />
-    <state width="619" height="121" key="GridCell.Tab.0.right" timestamp="1593670878990">
+    <state width="619" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.0.right" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
-    <state width="619" height="121" key="GridCell.Tab.1.bottom" timestamp="1593670878990">
+    <state width="619" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.1.bottom" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
-    <state width="619" height="121" key="GridCell.Tab.1.center" timestamp="1593670878990">
+    <state width="619" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.1.center" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
-    <state width="619" height="121" key="GridCell.Tab.1.left" timestamp="1593670878990">
+    <state width="619" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.1.left" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
-    <state width="619" height="121" key="GridCell.Tab.1.right" timestamp="1593670878990">
+    <state width="619" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
+    <state width="619" height="189" key="GridCell.Tab.1.right" timestamp="1593676167069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="121" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593670878990" />
+    <state width="619" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593676167069" />
     <state width="619" height="216" key="GridCell.Tab.2.bottom" timestamp="1593612120217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -339,10 +357,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="880" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593607735555" />
-    <state x="538" y="367" key="new project wizard" timestamp="1592987031698">
+    <state x="538" y="367" key="new project wizard" timestamp="1593674493360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="538" y="367" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592987031698" />
+    <state x="538" y="367" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593674493360" />
     <state x="1103" y="229" key="search.everywhere.popup" timestamp="1592993334669">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
