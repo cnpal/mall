@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a36be56-773d-46f6-bd41-b0704632b4a0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\panal\jetbrains\apps\IDEA-U\apache-maven-3.5.2\lib\mavenku" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\panal\jetbrains\apps\IDEA-U\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1dhowzs249PXZbyJRd3SZje0SHN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ware/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pal.common.exception" />
+      <recent name="com.pal.common.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\ware\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\order\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\member\src\main\resources" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\product\src\main\java\com\pal\mail\product" />
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\coupon\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WareApplication">
+    <configuration name="CouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="coupon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pal.mail.coupon.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.coupon.CouponApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="member" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pal.mail.member.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.member.MemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="order" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pal.mail.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.product.ProductApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="renren-generator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.renren.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RenrenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="renren-fast" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.renren.RenrenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ware" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pal.mail.ware.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pal.mail.ware.WareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ProductApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+      <item itemvalue="Spring Boot.CouponApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication (1)" />
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.WareApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WareApplication" />
+        <item itemvalue="Spring Boot.RenrenApplication (1)" />
+        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.MemberApplication" />
+        <item itemvalue="Spring Boot.CouponApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a36be56-773d-46f6-bd41-b0704632b4a0" name="Default Changelist" comment="" />
+      <created>1592886928351</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592886928351</updated>
+      <workItem from="1592886929571" duration="2264000" />
+      <workItem from="1592894197177" duration="1212000" />
+      <workItem from="1592895420594" duration="861000" />
+      <workItem from="1592896285445" duration="422000" />
+      <workItem from="1592896710739" duration="550000" />
+      <workItem from="1592903378607" duration="2110000" />
+      <workItem from="1592985324139" duration="2461000" />
+      <workItem from="1592987800615" duration="5429000" />
+      <workItem from="1592993296489" duration="911000" />
+      <workItem from="1593008257740" duration="90000" />
+      <workItem from="1593140133395" duration="5036000" />
+      <workItem from="1593347701727" duration="46000" />
+      <workItem from="1593347750622" duration="3000" />
+      <workItem from="1593604121657" duration="285000" />
+      <workItem from="1593604778203" duration="69000" />
+      <workItem from="1593604860736" duration="244000" />
+      <workItem from="1593605108585" duration="177000" />
+      <workItem from="1593605288049" duration="31000" />
+      <workItem from="1593605330321" duration="7405000" />
+      <workItem from="1593665829220" duration="561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1032" y="181" key="#Project_Structure" timestamp="1592895332558">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1032" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1592895332558" />
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593610797562">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593610797562" />
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593606796693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593606796693" />
+    <state x="785" y="491" width="906" height="143" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1593144591523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="785" y="491" width="906" height="143" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593144591523" />
+    <state x="675" y="116" key="#renren-fast/Dockerfile" timestamp="1593605135000">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1593605135000" />
+    <state width="619" height="216" key="GridCell.Tab.0.bottom" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.0.center" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.0.left" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.0.right" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.1.bottom" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.1.center" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.1.left" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.1.right" timestamp="1593612742581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593612742581" />
+    <state width="619" height="216" key="GridCell.Tab.2.bottom" timestamp="1593612120217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593612120217" />
+    <state width="619" height="216" key="GridCell.Tab.2.center" timestamp="1593612120217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593612120217" />
+    <state width="619" height="216" key="GridCell.Tab.2.left" timestamp="1593612120217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593612120217" />
+    <state width="619" height="216" key="GridCell.Tab.2.right" timestamp="1593612120217">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="619" height="216" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593612120217" />
+    <state x="1020" y="257" key="IDE.errors.dialog" timestamp="1593605281720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1020" y="257" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593605281720" />
+    <state x="880" y="97" key="SettingsEditor" timestamp="1593607735555">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="880" y="97" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593607735555" />
+    <state x="538" y="367" key="new project wizard" timestamp="1592987031698">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="538" y="367" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1592987031698" />
+    <state x="1103" y="229" key="search.everywhere.popup" timestamp="1592993334669">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1103" y="229" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592993334669" />
+    <state x="1162" y="437" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1592896410965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1162" y="437" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1592896410965" />
+  </component>
+</project>
