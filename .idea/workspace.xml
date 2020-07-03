@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a36be56-773d-46f6-bd41-b0704632b4a0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/pal/mail/gateway/config/MyCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/ProductApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/ProductApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/java/com/pal/mail/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/ProductApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/ProductApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/entity/CategoryEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/entity/CategoryEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/product/target/classes/com/pal/mail/product/service/impl/CategoryServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,23 +89,26 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gateway/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product/src/main/resources/mapper/product" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\product\src\main\resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.pal.common.exception" />
       <recent name="com.pal.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\product\src\main\resources\mapper\product" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\gateway\src\main\resources" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\coupon\src\main\resources" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\ware\src\main\resources" />
       <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\order\src\main\resources" />
-      <recent name="D:\panal\jetbrains\apps\IDEA-U\workspace\mail\member\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -213,6 +230,11 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
                 <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
@@ -254,7 +276,8 @@
       <workItem from="1593665829220" duration="9242000" />
       <workItem from="1593675138205" duration="1112000" />
       <workItem from="1593682105336" duration="4358000" />
-      <workItem from="1593741610164" duration="1098000" />
+      <workItem from="1593741610164" duration="6968000" />
+      <workItem from="1593755410686" duration="1703000" />
     </task>
     <servers />
   </component>
@@ -273,10 +296,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593610797562" />
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1593742364653">
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1593746434868">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593742364652" />
+    <state x="1245" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593746434868" />
     <state x="689" y="309" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593606796693">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -289,38 +312,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="675" y="116" key="#renren-fast/Dockerfile/0.0.1920.1040@0.0.1920.1040" timestamp="1593605135000" />
-    <state width="619" height="189" key="GridCell.Tab.0.bottom" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.0.bottom" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.0.center" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.0.center" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.0.left" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.0.left" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.0.right" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.0.right" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.1.bottom" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.1.bottom" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.1.center" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.1.center" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.1.left" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.1.left" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
-    <state width="619" height="189" key="GridCell.Tab.1.right" timestamp="1593689055342">
+    <state width="619" height="189" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
+    <state width="619" height="189" key="GridCell.Tab.1.right" timestamp="1593763465938">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="619" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593689055342" />
+    <state width="619" height="189" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593763465938" />
     <state width="619" height="216" key="GridCell.Tab.2.bottom" timestamp="1593612120217">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
